@@ -1,0 +1,116 @@
+{
+  "tagresp": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Good day",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello",
+        "Hello, how can I help you?",
+        "Hello, what can I do for you?",
+        "Hello, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye"],
+      "responses": [
+        "Have a nice day.",
+        "Bye!",
+        "Hope you stay well.",
+        "Stay healthy."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful","Thank you so much", "Thank's a lot!"],
+      "responses": ["Happy to help.", "Any time.", "Glad to be of help."]
+    },
+    {
+      "tag": "timing",
+      "patterns": [
+        "When will consultation be possible?",
+        "Are doctors available right now?",
+        "At what time will the doctors be available?",
+        "What are the doctor's timings?",
+        "What time should I come?"
+      ],
+      "responses": [
+        "Consultation time is between 9:00 am and 12:30 pm. Please book an appointment.",
+        "Emergency aid is always available. Please book an appointment between 9:00 am and 12:30 pm for non-emergencies."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you accept debit cards?",
+        "Do you only accept cash??",
+        "Do you accept Mastercard?",
+        "Can I pay with Google Pay?",
+        "Can I pay using Gpay?"
+      ],
+      "responses": [
+        "We accept debit cards, mastercard and Gpay",
+        "You may pay using cash, card or Gpay."
+      ]
+    },
+    {
+      "tag": "room",
+      "patterns": [
+        "Are private rooms available?",
+        "How to manage long stay?",
+        "Are the rooms clean?"
+      ],
+      "responses": [
+        "Private rooms are available in the posh South block.",
+        "Please book one of our health department approved private rooms after providing patient details."
+      ]
+    },
+    {
+      "tag": "department",
+      "patterns": [
+        "What all departments are there?",
+        "What diseases are treated?"
+      ],
+      "responses": [
+        "We have Orthopaedic, Cardiovascular, Paediatric, General Medicine and Dermatology departments.",
+        "We provide general care, treat heart, skin and skeletal diseases, and provide care for infants and young children."
+      ]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "What treatments do you provide?",
+        "Are scans possible?",
+        "Are surgeries possible?"
+      ],
+      "responses": [
+        "All required treatments are available including surgery and scanned diagnosis.",
+        "We have high quality scanning devices to provide the best possible treatment via surgery or otherwise.",
+        "Our scanning machines produce accurate results and all necessary surgeries and medicinal treatments are available."
+      ]
+    },
+    {
+      "tag": "pharmacy",
+      "patterns": [
+        "Do you have a pharmacy?",
+        "Are medicines available?",
+        "Blood bank?"
+      ],
+      "responses": [
+        "We have a pharmacy within the hospital with all required medicines. The hospital also has a blood bank.",
+        "A blood bank and pharmacy stocked with latest medicines present.",
+        "Reknowned pharmacy with the most effective medicines, and blood bank available."
+      ]
+    }
+  ]
+}
